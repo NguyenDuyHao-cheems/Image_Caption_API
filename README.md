@@ -23,13 +23,12 @@ Hệ thống cho phép người dùng **gửi ảnh kèm câu hỏi**, mô hình
 
 **Ví dụ:** Gửi ảnh một con mèo + câu hỏi "What animal is this?" → AI trả lời "cat".
 
-Hệ thống gồm 3 thành phần:
+Hệ thống gồm 2 thành phần:
 
 | Thành phần | Mô tả |
 |------------|--------|
 | **Server (Colab)** | Chạy model AI trên Google Colab, expose API qua Cloudflare Tunnel |
 | **Client CLI** | Ứng dụng dòng lệnh Python để gọi API |
-| **Web UI** | Giao diện web đơn giản gọi API từ trình duyệt |
 
 ---
 
@@ -45,8 +44,6 @@ Image_Caption_API/
 │   └── cli_app.py           # Giao diện dòng lệnh (CLI)
 ├── notebooks/
 │   └── run_model_image_vqa.ipynb  # Notebook chạy server trên Colab
-├── web/
-│   └── index.html           # Giao diện web
 ├── cli.py                   # Entry point chạy CLI
 ├── test_model.py            # Script test nhanh các endpoint
 ├── .env.example             # Template biến môi trường
@@ -131,9 +128,7 @@ python test_model.py
 
 Tự động test 3 endpoint: `/`, `/health`, `/predict`.
 
-**Cách 3 — Web UI:**
 
-Mở file `web/index.html` trên trình duyệt, thay URL API trong code JavaScript, sau đó upload ảnh và đặt câu hỏi.
 
 ---
 
