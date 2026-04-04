@@ -202,10 +202,10 @@ print(response.json())
 
 https://github.com/user-attachments/assets/0d74b17b-9060-421e-a8fc-bd731ea4d77e
 #### Phân mục video
-0-17: giới thiệu mô hình
-0:17 - 1:18 => mô tả source code
-1:18 - 1:53 -> chạy server trên gg colab
-1:53 - 3:40 -> chạy test_model
-3:40 - hết -> chạy command line
+- 0-17: giới thiệu mô hình
+- 0:17 - 1:18 => mô tả source code
+- 1:18 - 1:53 -> chạy server trên gg colab
+- 1:53 - 3:40 -> chạy test_model
+- 3:40 - hết -> chạy command line
 
 
