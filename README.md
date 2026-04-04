@@ -198,3 +198,8 @@ with open("test_image.jpg", "rb") as f:
 print(response.json())
 # {"answer": "a cat sitting on a couch"}
 ```
+## Demo
+
+https://github.com/user-attachments/assets/0d74b17b-9060-421e-a8fc-bd731ea4d77e
+
+
